@@ -9,7 +9,7 @@ makeCacheMatrix <- function(x = matrix()) {
   s <- NULL # initialization of s
   # reset value with a new matrix
   set <- function(y) {
-    x <<- y # assign the value of y to the m object in the parent environment
+    x <<- y # assign the value of y to the x object in the parent environment
     s <<- NULL # assign the value of NULL to the s object in the parent environment
   }
   # get the value of matrix
